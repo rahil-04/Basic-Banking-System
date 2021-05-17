@@ -1,10 +1,9 @@
 <?php
 
-$dbHost = "sql301.epizy.com";
-$dbUser = "epiz_28638124";
-$dbPass = "BQAUmpxuHgEMEWd
-";
-$dbName = "epiz_28638124_bank";
+$dbHost = "localhost";
+$dbUser = "root";
+$dbPass = "";
+$dbName = "bank";
 
 //estahblishing a connection
 $conn = mysqli_connect($dbHost,$dbUser,$dbPass, $dbName);
